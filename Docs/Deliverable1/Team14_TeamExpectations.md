@@ -8,7 +8,7 @@ Include group members’ preferred and backup choices for communication and list
 
 | Name | Preferred Contact Method | Back-Up Contact Method | Email | WhatsApp/Phone |
 | :---- | :---- | :---- | :---- | :---- |
-| **Ebrahim Azarbar** | Discord | Email | ebrahim9@my.yorku.ca | |
+| ** ** |  |  | | Discord |
 | **Emir Cetinalp** | Discord  | Phone | emirc253@gmail.com | 416-576-4822 |
 | **Atmiya Jadvani** | Whatsapp | Discord | atmiya@my.yorku.ca | 437-988-3114 |
 
