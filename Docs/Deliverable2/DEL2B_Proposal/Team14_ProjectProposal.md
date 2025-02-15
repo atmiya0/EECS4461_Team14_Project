@@ -49,7 +49,7 @@ When a topic starts to trend on X, it is because many people at once started tal
 
 # **Section 4: Simulation Anticipated Outcomes**
 
-![My Image](Docs/Deliverable2/DEL2B_Proposal/DEL2_Figure_1.png)
+![My Image](DEL2_Figure_1.png)
 
 Fig 1\. Simulation runs.
 
