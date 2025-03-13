@@ -11,9 +11,9 @@ The Trend Manipulator: AI Driving Trends on X
 - Get the dependencies from [requirements.txt](requirements.txt).
 - Open the files in VS Code.
 - Install the dependencies by:
-  ```pip install -r requirements.txt
+  ```pip install -r requirements.txt```
 - Finally, Run the simulation
-  ```python -m solara run app.py
+  ```python -m solara run app.py```
 
 # §C. Limitations and planned improvements for the next phase.
 
