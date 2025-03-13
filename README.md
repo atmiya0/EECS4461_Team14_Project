@@ -9,9 +9,11 @@ The Trend Manipulator: AI Driving Trends on X
 # §B. How to run the simulation (installation steps, commands).
 - Download the three code file from [src](src) folder.
 - Get the dependencies from [requirements.txt](requirements.txt).
-- Open the files in VSCode.
-- Run the command "pip install -r requirements.txt" in the same folder.
-- Finally, Run the command "python -m solara run app.py". 
+- Open the files in VS Code.
+- Install the dependencies by:
+  ```pip install -r requirements.txt
+- Finally, Run the simulation
+  ```python -m solara run app.py
 
 # §C. Limitations and planned improvements for the next phase.
 
