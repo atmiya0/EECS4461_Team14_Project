@@ -7,8 +7,8 @@ The Trend Manipulator: AI Driving Trends on X
 # Table of contents
 - [Deliverable 1](Docs/Deliverable1/)
 - [Deliverable 2](Docs/Deliverable2/DEL2B_Proposal/)
-- [Deliverable 2]
 - [Deliverable 3]
+- [Deliverable 4]
 - [Examples](Examples/)
 
 # Contributers
