@@ -4,6 +4,18 @@ Team 14 - EECS 4461 Winter 2025
 # Project Name
 The Trend Manipulator: AI Driving Trends on X
 
+# §A. Overview of the current implementation state.
+
+# §B. How to run the simulation (installation steps, commands).
+- Download the three code file from [src](src) folder.
+- Get the dependencies from [requirements.txt][requirements.txt].
+- Open the files in VSCode.
+- Run the command "pip install -r requirements.txt" in the same folder.
+- Finally, Run the command "python -m solara run app.py". 
+
+# §C. Limitations and planned improvements for the next phase.
+
+
 # Table of contents
 - [Deliverable 1](Docs/Deliverable1/)
 - [Deliverable 2](Docs/Deliverable2/DEL2B_Proposal/)
