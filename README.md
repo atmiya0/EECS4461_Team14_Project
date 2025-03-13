@@ -14,7 +14,8 @@ The Trend Manipulator: AI Driving Trends on X
   ```sh
   pip install -r requirements.txt
 - Finally, Run the simulation
-  ```python -m solara run app.py
+  ```sh
+  python -m solara run app.py
 
 # §C. Limitations and planned improvements for the next phase.
 
