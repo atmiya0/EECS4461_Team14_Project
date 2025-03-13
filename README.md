@@ -26,6 +26,7 @@ The Trend Manipulator: AI Driving Trends on X
 - [Deliverable 3]
 - [Deliverable 4]
 - [Examples](Examples/)
+- [src](src/)
 
 # Contributers
 Ebrahim Azarbar, Emir Cetinalp, Atmiya Jadvani
