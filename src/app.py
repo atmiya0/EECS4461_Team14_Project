@@ -22,7 +22,7 @@ def agent_portrayal(agent):
 def get_algorithm_topic(model):
     algorithm_text = getattr(model, "algorithm_topic", "None")
     return solara.Markdown(
-        f"##Algorithm Pushing: {algorithm_text}"
+        f"##Algorithm Recommends: {algorithm_text}"
     )
 
 
@@ -35,24 +35,24 @@ model_params = {
         step=1
     ),
     "active_bot": Slider(
-        label="Active Bot",
+        label="Active Bots",
         value=2,
         min=1,
         max=10,
         step=1
     ),
     "inactive_bot": Slider(
-        label="Inactive Bot",
+        label="Inactive Bots",
         value=3,
         min=1,
         max=10,
         step=1
     ),
-    "ai_spread_chance": Slider(
-        label="AI Spread on Humans",
+    "bot_spread_chance": Slider(
+        label="Bot Spread on Humans",
         value=0.5,
         min=0.1,
-        max=1.0,
+        max=0.6,
         step=0.1
     ),
     "human_spread_chance": Slider(
@@ -66,22 +66,23 @@ model_params = {
         label="Algorithm Spread on Humans",
         value=0.2,
         min=0.1,
-        max=1.0,
-        step=0.05
+        max=0.6,
+        step=0.1
     ),
 }
 
 
 
 def post_process_lineplot(ax):
+    """Line Graph"""
     ax.set_ylim(ymin=0)
-    ax.set_ylabel("Number of humans discussing the topic")
+    ax.set_ylabel("Number of humans engaging with the topic")
     ax.legend(bbox_to_anchor=(1.05, 1.0), loc="upper left")
 
 SpacePlot = make_space_component(agent_portrayal)
 
 StatePlot = make_plot_component(
-    {topic: TOPICS[topic] for topic in TOPICS.keys()}, 
+    {topic: TOPICS[topic] for topic in TOPICS.keys()},
     post_process=post_process_lineplot,
 )
 
@@ -92,7 +93,9 @@ page = solara.Column(
     [
         solara.Markdown(r'''
         # <span style="color: orange; font-weight: bold; margin-right: 20px;">Topic 1</span> <span style="color: blue; font-weight: bold; margin-right: 20px;">Topic 2</span>   <span style="color: purple; font-weight: bold;">Topic 3</span>
-        ## <span style="font-weight:bold;"> Bots (Circles) - Humans (Squares) </span>'''),
+        ## <span style="font-weight:bold"> Humans (Squares) </span>
+        ## <span style="font-weight:bold"> Bots (Circle) </span>
+        ### <span style="margin-left: 35px""> - Inactive Bots (Gray Circle) </span>'''),
         SolaraViz(
             model1,
             components=[
