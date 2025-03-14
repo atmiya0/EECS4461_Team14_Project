@@ -18,17 +18,17 @@ class MetricNetwork(Model):
         num_nodes=30,
         active_bot=2,
         inactive_bot=3,
-        ai_spread_chance=0.5,
+        bot_spread_chance=0.5,
         human_spread_chance=0.3,
         algorithm_spread_chance=0.2,
     ):
         super().__init__()
 
-        self.ai_spread_chance = ai_spread_chance
+        self.bot_spread_chance = bot_spread_chance
         self.human_spread_chance = human_spread_chance
         self.algorithm_spread_chance = algorithm_spread_chance  
 
-        # Create the graph
+        # Create the network graph
         graph = nx.erdos_renyi_graph(n=num_nodes, p=0.1)
         self.grid = NetworkGrid(graph)
 
@@ -45,9 +45,9 @@ class MetricNetwork(Model):
 
         self.bot_topic = None
 
-        # Create agents and place them in the network
+        """Create all agents and place them in the network"""
         for node in graph.nodes():
-            a = MetricAgent(self, State.HUMAN, self.ai_spread_chance, self.human_spread_chance)
+            a = MetricAgent(self, State.HUMAN, self.bot_spread_chance, self.human_spread_chance)
             self.grid.place_agent(a, node)
 
         self.bot_nodes = self.random.sample(list(graph.nodes), active_bot)
@@ -77,7 +77,7 @@ class MetricNetwork(Model):
                 graph.add_edge(inactive_node, p_bot)
 
     def choose_topic(self):
-        """Choose a random topic to push"""
+        """Choose a random topic"""
         return self.random.choice(list(TOPICS.keys()))
 
     def step(self):
