@@ -9,7 +9,7 @@ Our simulation models the “For You” Tab on X. It consists of two agents, hum
 
 # §B. How to run the simulation (installation steps, commands).
 - Download the three code file from [src](src) folder.
-- Get the dependencies from [requirements.txt](requirements.txt).
+- Download the dependencies from [requirements.txt](requirements.txt).
 - Open the files in VS Code.
 - Install the dependencies by:
   ```sh
