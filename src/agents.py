@@ -37,7 +37,7 @@ class MetricAgent(Agent):
             self.first_topic = random.choice(list(TOPICS.keys()))  
             self.topic = self.first_topic
         
-        # Bots chooses a random topic
+        # Bots choose a random topic
         if self.state == State.BOT:
             self.topic = random.choice(list(TOPICS.keys()))
 
