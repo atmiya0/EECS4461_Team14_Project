@@ -17,7 +17,7 @@ The manipulation of social media metrics by bots presents an important threat in
 
 Agent-based modeling (ABM) is suitable for this approach because it can simulate real life interactions between users and bots. We can view the interaction between the agents and see how their behaviour impacts the system. We can create a network graph to showcase edges of people following each other which is reflective of real life social media use cases. ABM allows us to create bots to coordinate amongst one another and to simulate influences on human users. We can also create an algorithm entity which spreads further and has a chance to influence humans users globally. Overall, the model we came up with is a good way to showcase metric manipulation in X as we can visualize the spreading of topics and bots coordinate with each other. 
 
-![][image1]
+![Figure 1][DEL3_Figure_1.png]
 
 Figure 1: Preliminary simulation visualizations.
 
@@ -49,7 +49,7 @@ Our simulation consists of Humans agents represented by squares and bot agents r
 
 Before the start of the simulation, human and bot agents choose a topic at random, in this state,  the algorithm has not chosen a topic to push as well. There are several user controlled parameters that you can adjust before the start of the simulation. These parameters being: amounts of the total number of agents, active bots, inactive bots, the probability of bot to human spread, probability of human to human spread, and finally algorithm to human spread.
 
-![][image2]
+![Figure 2][DEL3_Figure_2.png]
 
 Figure 2: Simulation before start.
 
@@ -57,7 +57,7 @@ The network structure of our model represents the X ecosystem, specifically the 
 
 An important mechanism of our model is the algorithm. Once a topic gains the most engagement, it will be picked up by the algorithm and will be recommended globally to other humans across the simulation. It is important to note that bot engagement is included in the threshold for metrics for algorithmic engagement.  This shows how algorithm recommendation systems can be manipulated and start to recommend topics that are not derived from organic engagement. 
 
-![][image3]
+![Figure 3][DEL3_Figure_3.png]
 
 Figure 3: Network grid result
 
@@ -65,7 +65,9 @@ In figure 3, bot agents have manipulated the metrics of topic 2\. The algorithm 
 
 To learn more about the behavior of our model, we have included quantitative metrics to help digest the information from our simulation. We have implemented a line graph to visually depict the number of human agents engaging a topic per step of the simulation.
 
-![][image4]Figure 4: Line graph result
+![Figure 4][DEL3_Figure_4.png]
+
+Figure 4: Line graph result
 
 The data from Figure 4 shows that topic 2 saw an increase of human engagement, which  aligned with the bots coordinated attack and the algorithm pushing the topic to other humans. Topic 2 was the most engaged topic in the graph due to the bots continuously coordinating to inflate the topic and the constant recommendation of the topic by the algorithm.
 
