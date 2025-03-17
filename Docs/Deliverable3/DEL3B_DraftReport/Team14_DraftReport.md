@@ -25,7 +25,7 @@ The picture of simulation in figure 1 mimics real life because bots can engage w
 
 ## **§2. Simulation Design & Implementation** 
 
-For our system, we decided to model the “For You” Tab on X to showcase our phenomena. Our system primarily consists of two types of agents, human agents, bot agents, and an AI Algorithm entity. Both human and bot agents are used to model types of engagement with a topic, while the AI algorithm is used to showcase mechanisms of recommending content and or topics to users.
+For our system, we decided to model the “For You” Tab on X to showcase our phenomena. Our system primarily consists of two types of agents, human agents, bot agents, and an AI algorithm entity. Both human and bot agents are used to model types of engagement with a topic, while the AI algorithm is used to showcase mechanisms of recommending topics to users.
 
 The model we found that would best represent our media ecosystem of the “For You” Tab on X would be the network-based model. We decided to go with this model due to how it both enabled us to visually showcase relationships between different agents as well as it being a good fit in terms of representing our phenomena of interest. A network based model shows clear relations between how agents operate as well as how agents can influence one another. 
 
@@ -104,7 +104,7 @@ We will create another graph to showcase how fast a topic will be trending and m
 - **Draft Report Contribution**  
   - **Project administration:** I was responsible for task distribution among team members and ensuring task were completed on time   
   - **Writing:** Contributed to the initial draft of the report then helped to refine it.  
-  - **Validation:** validated the draft report to ensure it met the report expectation  
+  - **Validation:** validated the draft report to ensure it met the report expectation.
   - **Conceptualization:** how to relate our phenomena to a mesa example and how to visually represent it in our simulation.  
 - **Future Plans**  
 - I plan to keep the same roles and help teammates in other areas. 
