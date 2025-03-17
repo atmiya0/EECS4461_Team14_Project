@@ -17,7 +17,7 @@ The manipulation of social media metrics by bots presents an important threat in
 
 Agent-based modeling (ABM) is suitable for this approach because it can simulate real life interactions between users and bots. We can view the interaction between the agents and see how their behaviour impacts the system. We can create a network graph to showcase edges of people following each other which is reflective of real life social media use cases. ABM allows us to create bots to coordinate amongst one another and to simulate influences on human users. We can also create an algorithm entity which spreads further and has a chance to influence humans users globally. Overall, the model we came up with is a good way to showcase metric manipulation in X as we can visualize the spreading of topics and bots coordinate with each other. 
 
-![Figure 1][DEL3_Figure_1.png]
+![Figure 1][Del3_Figure_1.jpg]
 
 Figure 1: Preliminary simulation visualizations.
 
