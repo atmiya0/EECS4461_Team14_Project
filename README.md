@@ -24,7 +24,7 @@ For DEL4, we plan to improve our simulation and make it more realistic. We have 
 # Table of contents
 - [Deliverable 1](Docs/Deliverable1/)
 - [Deliverable 2](Docs/Deliverable2/DEL2B_Proposal/)
-- [Deliverable 3]
+- [Deliverable 3](Docs/Deliverable3/DEL3B_DraftReport/)
 - [Deliverable 4]
 - [Examples](Examples/)
 - [src](src/)
