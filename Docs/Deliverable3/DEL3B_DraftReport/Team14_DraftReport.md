@@ -49,7 +49,7 @@ Our simulation consists of Humans agents represented by squares and bot agents r
 
 Before the start of the simulation, human and bot agents choose a topic at random, in this state,  the algorithm has not chosen a topic to push as well. There are several user controlled parameters that you can adjust before the start of the simulation. These parameters being: amounts of the total number of agents, active bots, inactive bots, the probability of bot to human spread, probability of human to human spread, and finally algorithm to human spread.
 
-![My Image](DEL3_Figure_2.jpg)
+![My Image](DEL3_Figure_2.png)
 
 
 Figure 2: Simulation before start.
@@ -58,7 +58,7 @@ The network structure of our model represents the X ecosystem, specifically the 
 
 An important mechanism of our model is the algorithm. Once a topic gains the most engagement, it will be picked up by the algorithm and will be recommended globally to other humans across the simulation. It is important to note that bot engagement is included in the threshold for metrics for algorithmic engagement.  This shows how algorithm recommendation systems can be manipulated and start to recommend topics that are not derived from organic engagement. 
 
-![My Image](DEL3_Figure_3.jpg)
+![My Image](DEL3_Figure_3.png)
 
 
 Figure 3: Network grid result
@@ -67,7 +67,7 @@ In figure 3, bot agents have manipulated the metrics of topic 2\. The algorithm 
 
 To learn more about the behavior of our model, we have included quantitative metrics to help digest the information from our simulation. We have implemented a line graph to visually depict the number of human agents engaging a topic per step of the simulation.
 
-![My Image](DEL3_Figure_4.jpg)
+![My Image](DEL3_Figure_4.png)
 
 
 Figure 4: Line graph result
