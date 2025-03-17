@@ -10,7 +10,9 @@ Our simulation models the “For You” Tab on X. It consists of two agents, hum
 # §B. How to run the simulation (installation steps, commands).
 - Download the three code file from [src](src) folder.
 - Download the dependencies from [requirements.txt](requirements.txt).
-- Open the files in VS Code.
+- Extract each of the files to a new folder.
+- Open the new folder in VS Code.
+- Note: Make sure in the terminal, you are in the newly created folder directory before you install the dependencies and run the application.
 - Install the dependencies by:
   ```sh
   pip install -r requirements.txt
