@@ -4,8 +4,8 @@ Team 14 - EECS 4461 Winter 2025
 # Project Name
 The Trend Manipulator: AI Driving Trends on X
 
-# §A. Overview of the current implementation state.
-Our simulation models the “For You” Tab on X. It consists of two agents, human agents and bot agents as well as an algorithm entity. The Model we used as a basis to create our model is a network based model. In our simulation we have 3 topics, active bots have the ability to choose a single topic randomly to inflate and push it to human and inactive bot. Inactive bot coordinates with active bots to engage with the same topic. Humans can change their topic based on who they engage with. Humans can also revert back to their original topic. Our Algorithm entity picks the topic that has the most engagement and recommends it to other humans globally. Meaning that human agents who are surrounded by agents that all push the same type of content, have chances to be influenced by the algorithm to engage with other topics.
+# §A. Overview of the phenomenon modeled.
+The simulation models metric manipulation on social media, specifically the “For You” Tab on X. It consists of two agents, human agents and bot agents as well as algorithm entities. The model we used as a basis to create our model is a network based model. In our simulation we have 6 topics, decision bots have the ability to inflate topic 1, then topic 2 then 3 and finally repeats. The decision bots can push the topic to humans and follower bots. Follower bots coordinate with active bots to engage with the same topic. Humans can change their topic based on who they engage with. Humans have a tolerance mechanism, where if they engage with a topic for a long time they switch to a different topic. Our main algorithm entity picks the topic that has the most engagement and recommends it to other humans globally. Meaning that human agents who are surrounded by agents that all push the same type of content, have chances to be influenced by the algorithm to engage with other topics. Our second algorithm picks up a topic randomly and recommends it to other humans periodically.
 
 # §B. How to run the simulation (installation steps, commands).
 - Download the three code file from [src](src) folder.
@@ -20,8 +20,11 @@ Our simulation models the “For You” Tab on X. It consists of two agents, hum
   ```sh
   python -m solara run app.py
 
-# §C. Limitations and planned improvements for the next phase.
-For DEL4, we plan to improve our simulation and make it more realistic. We have planned to make the algorithm have the ability to recommend more than a singular topic in the simulation to see behavior of humans. Furthermore, bots can coordinate and inflate other topics to agents.
+# §C. Key findings or observations.
+- Human dominated, when bot influence was low and there was no algorithm. We noticed human driven topics were dominating the ecosystem. Human agents spread their topics through peep to peer influence. This results in organic narratives spreading on the platform.
+- Bot dominated, when bot influence was high and there were algorithms. The bot tricked the algorithm into picking the topic they were pushing and recommend it to humans globally. This caused the topic to trend. The bot influence and algorithm overwhelmed human organic topics.
+- Primary driver, we noticed that bots exploit algorithm weakness by inflating a topic's engagement. Bots on their own were unable to gain momentum to trend a topic without help of the algorithm. Bots take advantage of the algorithm design and manipulate it to fit their own needs.
+
 
 # Table of contents
 - [Deliverable 1](Docs/Deliverable1/)
