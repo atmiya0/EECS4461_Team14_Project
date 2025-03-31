@@ -25,21 +25,21 @@ Agent-based modeling (ABM) is suitable for this approach because it can simulate
 
 ## 1.4 Illustration
 
-![][image1]  
+![My Image](DEL4_Figure_1.jpg)
 Figure 1\.
 
 Before the simulation begins, all agents have already chosen their topic. Human agents will have already chosen a topic at random, while bots will choose to push topic 1\.  
-![][image2]  
+![My Image](DEL4_Figure_2.jpg)
 Figure 2\.
 
 The algorithm picks up the most engaged topic and starts to recommend it to humans. As a result, most human agents engage with topic 1\.
 
-![][image3]  
+![My Image](DEL4_Figure_3.jpg)
 Figure 3\.
 
 Over time, human agents develop tolerance toward topic 1 and switch to a different topic. As shown in the line graph, topic 1 begins to fade out and despite the bots pushing topic 1\.
 
-![][image4]  
+![My Image](DEL4_Figure_4.jpg)
 Figure 4\.
 
 Once humans have gained immunity towards topic 1, bots switch their focus to pushing topic 2\. As shown in the line graph, bots coordinate engagement on topic 2 and the algorithm recommends it to humans globally.This has the effect of creating another wave of engagement for topic 2\.
@@ -104,20 +104,21 @@ Our simulation consists of human agents represented by squares and bot agents re
 
 Figure 5 shows before the start of the simulation, human agents choose a topic to engage with at random. It is also important to note that at this stage of the simulation, the algorithm has not chosen any topic to push out yet. As the simulation starts, decision bots will coordinate with follower bots to start inflating topic 1\. The main algorithm will then start to recommend the most engaged topic to agents that are in the media ecosystem. While the second algorithm will start to recommend  a chosen  topic at random.
 
-![][image5]
+![My Image](DEL4_Figure_5.jpg)
 
 Figure 5\. Simulation before start.
 
 ## 3.2 Human Domination
 
-![][image6]  
+![My Image](DEL4_Figure_6.jpg)
+
 Figure 6\. Simulation of human domination.
 
 In Figure 6, bot agents were pushing to inflate topic 1 while human agents started with a random topic. When the simulation starts, bot agents tried to push out as much engagement as possible to have the algorithm start recommending topic 1 to users. In this instance, the bots failed to manipulate topic 1 to trend. Instead what happened is the human agents had enough influence with one another, that human agents were able to overcome bots influence. In this state of the model, this trail would be classified as narratives being organically grown (human dominated)
 
 We have noticed that this situation appears under a specific set of parameter conditions. It primarily occurs when the bot on human influence is lower in relation to human on human influence. Additionally, the influence of both algorithms are non-existent. Under these conditions, human agents rely more on peer to peer influence rather than algorithmic and bot influence recommendations for topic engagement. As a result, humans are engaging with each other with minimal to non-existent manipulation.
 
-![][image7]
+![My Image](DEL4_Figure_7.png)
 
 Figure 7\. Line graph of human domination.
 
@@ -125,7 +126,7 @@ In figure 7, it shows the line graph of our model in a human dominated state. It
 
 ## 3.3 Bot Domination
 
-![][image8]
+![My Image](DEL4_Figure_8.jpg)
 
 Figure 8\. Simulation of bot domination.
 
@@ -133,19 +134,21 @@ In figure 8, we can see that bots are pushing topic 2 currently and most humans 
 
 This result is tied to the parameter settings. The bot on human influence is larger than human on human influence, and the main algorithm parameter was set to a high value which allows for the pushing of topics to humans. This scenario is reflective of real world use cases of social media platforms, as most platforms have some form of algorithm serving content to users which are based on total engagement with a topic. To summarize, this trial run of our simulation shows how algorithmic recommendations can be manipulated by bot coordination.
 
-![][image9]
+![My Image](DEL4_Figure_9.png)
 
 Figure 9\.  Line graph of bot domination.
 
 Figure 9, shows which topics are engaged over time. We can see topic 1 (yellow) which was initially pushed by bots started to trend and the point in time when humans gained tolerance towards topic 1\. As a response, bots changed to engaging with topic 2 (blue). Topic 2 gained momentum from the new found bot engagement, which was picked by the algorithm and recommended to humans globally.  Human driven topics such as  topic 5 (pink) or topic 6 (green) never gained momentum and ended up being phased out of relevance. This suggests that bot coordination and algorithms can artificially inflate a topic even if it was not initially engaged by humans. This mimics real world examples where misinformation can be spread through social media platforms. Unlike human dominated scenarios, in this case the bot influence and algorithm overwhelmed human organic topics.
 
-## 3.4 Primary Driver of Topics ![][image10]
+## 3.4 Primary Driver of Topics
+
+![My Image](DEL4_Figure_10.jpg)
 
 Figure 10\. Simulation of primary driver.
 
 In figure 10, we purposely disabled both of the algorithms and set the bot on human influence and human on human influence parameters equal to one another. We did this to observe what would happen in the system when all influences are locally based with no global factor like the algorithm. What we saw is there was high fluctuation in topic engagement. Multiple topics spiked for a little but were then overtaken by other topics. No topics remained for a long enough time to consistently be the most engaged topic, where the most engagement topic would fluctuate between one another constantly. 
 
-### ![][image11]
+![My Image](DEL4_Figure_11.png)
 
 Figure 11\. Line graph of primary driver.
 
