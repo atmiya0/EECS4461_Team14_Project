@@ -17,7 +17,7 @@ X employs a sophisticated algorithm which utilizes AI to recommend relevant topi
 
 ## 1.2 Problem Statement
 
-The manipulation of social media metrics by bots presents an important threat in both the digital and real world. The primary directive of X is to ensure that users are engaged with their platform as much as possible, this is achieved by having their algorithm deliver relevant trends and topics to users. Bots in turn can take advantage of this system, this is achieved through simulating engagement with other users or bots to amplify the metrics of a given topic. This idea of metric manipulation would in turn have the ability to impact important topics on the platform such as political discourse, economics, and health information. This would be attributed to how bots can push misinformation and misleading content which can muddy the swamp in terms of content validity and narrative. (Barhate et al, 2020). This also has a long term effect on X as a platform,  as it devalues the credibility of the platform itself. X by association will be known for pushing low-credible content to users which would result in platform degradation and decline of user trust (Weng & Lin, 2022).
+The manipulation of social media metrics by bots presents an important threat in both the digital and real world. The primary directive of X is to ensure that users are engaged with their platform as much as possible, this is achieved by having their algorithm deliver relevant trends and topics to users. Bots in turn can take advantage of this system, this is achieved through simulating engagement with other users or bots to amplify the metrics of a given topic. This idea of metric manipulation would in turn have the ability to impact important topics on the platform such as political discourse, economics, and health information. This would be attributed to how bots can push misinformation and misleading content which can muddy the swamp in terms of content validity and narrative. (Barhate et al, 2020). This also has a long term effect on X as a platform, as it devalues the credibility of the platform itself. X by association will be known for pushing low-credible content to users which would result in platform degradation and decline of user trust (Weng & Lin, 2022).
 
 ## 1.3 Agent Based Modeling
 
@@ -42,7 +42,7 @@ Over time, human agents develop tolerance toward topic 1 and switch to a differe
 ![My Image](DEL4_Figure_4.jpg)
 Figure 4\.
 
-Once humans have gained immunity towards topic 1, bots switch their focus to pushing topic 2\. As shown in the line graph, bots coordinate engagement on topic 2 and the algorithm recommends it to humans globally.This has the effect of creating another wave of engagement for topic 2\.
+Once humans have gained immunity towards topic 1, bots switch their focus to pushing topic 2\. As shown in the line graph, bots coordinate engagement on topic 2 and the algorithm recommends it to humans globally. This has the effect of creating another wave of engagement for topic 2\.
 
 These illustrations of the simulation mimics real life because bots can engage with each other and coordinate to inflate a topic and trick the algorithm to pick it up and recommend it to other humans globally.
 
@@ -72,11 +72,11 @@ Humans in our simulation also have additional behaviours such as tolerance. Tole
 
 Bots in contrast have additional behaviours that are reactive to the state of the simulation itself. Bots will shift to inflate other topics when factors such as human agents tolerance to a topic make inflating a specific topic no longer lucrative. Bots push topic 1, then topic 2, then topic 3, and then restarts at topic 1 as tolerance builds up.
 
-We also have an entity in our simulation that models the main algorithm for topic recommendations. This mechanism of recommendation works by looking at the total amount of engagement a topic has. Topics with the most engagement are picked up by the algorithm and are recommended globally to other human agents.We have another entity which is the second algorithm and it recommends random topics to humans periodically as the simulation progresses.
+We also have an entity in our simulation that models the main algorithm for topic recommendations. This mechanism of recommendation works by looking at the total amount of engagement a topic has. Topics with the most engagement are picked up by the algorithm and are recommended globally to other human agents. We have another entity which is the second algorithm and it recommends random topics to humans periodically as the simulation progresses.
 
 ## 2.5 Simplifications
 
-One aspect of the model we chose to simplify was the agent behaviour in regards to topic engagement. In real life, topics are constantly changing and trends emerge constantly. To keep it simple and manageable we focused on limiting interactions for agents to six pre established topics only.  
+One aspect of the model we chose to simplify was the agent behaviour in regard to topic engagement. In real life, topics are constantly changing and trends emerge constantly. To keep it simple and manageable we focused on limiting interactions for agents to six pre established topics only.  
 
 Another simplification we decided on, was how human agents and their tolerances towards a topic. Whenever a bot has chosen to go from inflating one topic to another topic, human agents would forget their tolerance of the previous topic. So, as bot agents are circling to inflate a new topic, humans would have lost tolerance to prior inflated topics. This was done, due to how humans when engaging on social media platforms will naturally gain tolerance to a topic when seeing or engaging with it for extended periods of time. This relationship also works inversely, where the more time they are engaged with other topics decreases the resistance built with the original topic in question.
 
@@ -90,7 +90,7 @@ Metric manipulation in the simulation emerges through coordinated bot actions, h
 
 ## 2.8 Key Assumptions
 
-Our simulation is based on several assumptions about agent behavior in regards to information spread. Bot coordination is centralized to decision bots, which means follower bots do not independently act without decision bots involved. Bots agents are not influenced by human interactions. However, human agents can be influenced by their neighbors whether it be human, bot, or algorithmic entities. The algorithm prioritizes engagement when recommending topics, regardless of whether the activity is driven by bots or humans, and does not consider the credibility of the information.
+Our simulation is based on several assumptions about agent behavior in regard to information spread. Bot coordination is centralized to decision bots, which means follower bots do not independently act without decision bots involved. Bots agents are not influenced by human interactions. However, human agents can be influenced by their neighbours whether it be human, bot, or algorithmic entities. The algorithm prioritizes engagement when recommending topics, regardless of whether the activity is driven by bots or humans, and does not consider the credibility of the information.
 
 ## 2.9 Data Collection
 
@@ -130,7 +130,7 @@ In figure 7, it shows the line graph of our model in a human dominated state. It
 
 Figure 8\. Simulation of bot domination.
 
-In figure 8, we can see that bots are pushing topic 2 currently and most humans are engaging with topic 2\. Initially the bots were pushing topic 1 and most humans were engaged with said topic, but as time goes on, humans have gained tolerance towards topic 1\. This prompts the bots to try and inflate another topic. The bots then try to push topic 2 towards other agents as a response to this new found tolerance to topic 1\. The bots influence their neighbors quickly which in turn inflates the metrics for engagement for topic 2\. As a response to this new found engagement, the main algorithm picks up topic 2 and pushes it to humans globally throughout the model. In this specific example we end up seeing a feedback loop between both actions, and algorithmic and human responses. Bots were able to trick the algorithm into promoting a topic which in turn prompted more human users to engage with the topic, and resulted with the algorithm being more likely to promote the topic. 
+In figure 8, we can see that bots are pushing topic 2 currently and most humans are engaging with topic 2\. Initially the bots were pushing topic 1 and most humans were engaged with said topic, but as time goes on, humans have gained tolerance towards topic 1\. This prompts the bots to try and inflate another topic. The bots then try to push topic 2 towards other agents as a response to this new found tolerance to topic 1\. The bots influence their neighbours quickly which in turn inflates the metrics for engagement for topic 2\. As a response to this new found engagement, the main algorithm picks up topic 2 and pushes it to humans globally throughout the model. In this specific example we end up seeing a feedback loop between both actions, and algorithmic and human responses. Bots were able to trick the algorithm into promoting a topic which in turn prompted more human users to engage with the topic, and resulted with the algorithm being more likely to promote the topic. 
 
 This result is tied to the parameter settings. The bot on human influence is larger than human on human influence, and the main algorithm parameter was set to a high value which allows for the pushing of topics to humans. This scenario is reflective of real world use cases of social media platforms, as most platforms have some form of algorithm serving content to users which are based on total engagement with a topic. To summarize, this trial run of our simulation shows how algorithmic recommendations can be manipulated by bot coordination.
 
@@ -138,7 +138,7 @@ This result is tied to the parameter settings. The bot on human influence is lar
 
 Figure 9\.  Line graph of bot domination.
 
-Figure 9, shows which topics are engaged over time. We can see topic 1 (yellow) which was initially pushed by bots started to trend and the point in time when humans gained tolerance towards topic 1\. As a response, bots changed to engaging with topic 2 (blue). Topic 2 gained momentum from the new found bot engagement, which was picked by the algorithm and recommended to humans globally.  Human driven topics such as  topic 5 (pink) or topic 6 (green) never gained momentum and ended up being phased out of relevance. This suggests that bot coordination and algorithms can artificially inflate a topic even if it was not initially engaged by humans. This mimics real world examples where misinformation can be spread through social media platforms. Unlike human dominated scenarios, in this case the bot influence and algorithm overwhelmed human organic topics.
+Figure 9, shows which topics are engaged over time. We can see topic 1 (yellow) which was initially pushed by bots started to trend and the point in time when humans gained tolerance towards topic 1\. As a response, bots changed to engaging with topic 2 (blue). Topic 2 gained momentum from the new found bot engagement, which was picked by the algorithm and recommended to humans globally.  Human driven topics such as topic 5 (pink) or topic 6 (green) never gained momentum and ended up being phased out of relevance. This suggests that bot coordination and algorithms can artificially inflate a topic even if it was not initially engaged by humans. This mimics real world examples where misinformation can be spread through social media platforms. Unlike human dominated scenarios, in this case the bot influence and algorithm overwhelmed human organic topics.
 
 ## 3.4 Primary Driver of Topics
 
@@ -174,7 +174,7 @@ At the micro level, bots push topics to humans individually, this makes humans b
 
 At the meso level, we have seen how the algorithm will change the interaction in small communities. In our simulation, there can be some agents that are not connected to the main network or to all of the bots. They are small in number as well, but can still be impacted by  the algorithm. This can change small online communities in the types of topic they were discussing which brings in new discourse into the community. While this is not inherently bad itself, if the information that comes in is not reliable itself, we circle back into the same problems associated at the micro level but at a larger scale.
 
-## 4.3 Real-World Pattern
+## 4.3 Real World Pattern
 
 This model is realistic as observed in X media ecosystem, it simulates the for you tab on X. one important key is the bots ability to coordinate with one another to amplify a topic. Same as in the real world where bot networks often coordinate to boost a topic to make them more popular. Another realistic element is the algorithm recommendation, the algorithm picks up the topic with the most engagement and does not care about the validity information.
 
