@@ -114,7 +114,7 @@ Figure 5\. Simulation before start.
 
 Figure 6\. Simulation of human domination.
 
-In Figure 6, bot agents were pushing to inflate topic 1 while human agents started with a random topic. When the simulation starts, bot agents tried to push out as much engagement as possible to have the algorithm start recommending topic 1 to users. In this instance, the bots failed to manipulate topic 1 to trend. Instead what happened is the human agents had enough influence with one another, that human agents were able to overcome bots influence. In this state of the model, this trail would be classified as narratives being organically grown (human dominated)
+In Figure 6, bot agents were pushing to inflate topic 1 while human agents started with a random topic. When the simulation starts, bot agents tried to push out as much engagement as possible to have the algorithm start recommending topic 1 to users. In this instance, the bots failed to manipulate topic 1 to trend. Instead what happened is the human agents had enough influence with one another, that human agents were able to overcome bots influence. In this state of the model, this trial would be classified as narratives being organically grown (human dominated)
 
 We have noticed that this situation appears under a specific set of parameter conditions. It primarily occurs when the bot on human influence is lower in relation to human on human influence. Additionally, the influence of both algorithms are non-existent. Under these conditions, human agents rely more on peer to peer influence rather than algorithmic and bot influence recommendations for topic engagement. As a result, humans are engaging with each other with minimal to non-existent manipulation.
 
@@ -154,11 +154,11 @@ Figure 11\. Line graph of primary driver.
 
 In figure 11, the line graph shows how none of the topics are able to maintain dominance over one another. Bots and humans are competing with each other, and all topics were unstable. This result is significant because it shows us that without algorithms, bots are unable to manipulate metrics and dominate the ecosystem.
 
-## 3.4 Emergent Behavior
+## 3.5 Emergent Behavior
 
 We initially thought that bots would be the primary driver of trend manipulation. However, in the human dominated scenario. We saw that if bots have weaker influences on humans, we get outcomes where organic topics are able to shape the narrative that surrounds the media ecosystem. An explanation for why this happened could be based on the parameter in the simulation. Where it is based on probability of how the neighbor connected agent has the chance of being influenced. 
 
-An emergent behavior we observed is how the algorithm had an impact on each of the trials. We know that algorithms are strong but we did not think they were the biggest amplifiers of media metrics. As we saw in section 3.3, bots on their own were unable to gain momentum to trend a topic without help of the algorithm. Bots take advantage of the algorithm design and manipulate it to fit their own needs.
+An emergent behavior we observed is how the algorithm had an impact on each of the trials. We know that algorithms are strong but we did not think they were the biggest amplifiers of media metrics. As we saw in section 3.4, bots on their own were unable to gain momentum to trend a topic without help of the algorithm. Bots take advantage of the algorithm design and manipulate it to fit their own needs.
 
 # §4. Ethical & Societal Reflections
 
